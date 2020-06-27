@@ -1,0 +1,23 @@
+<div  *ngFor = "let cooperativa of cooperativas"> 
+    <ul class="list-group">
+        <li class="list-group-item">Nombre:{{cooperativa.nm_coop}} 
+        <p>R.I.F: {{cooperativa.cd_nacion}}-{{cooperativa.nu_rif}}</p>    
+        <p>Dirección: {{cooperativa.de_direccion}}</p> 
+        <p>Actividad: {{cooperativa.tp_actividad}}</p> 
+        <p>Fecha de suscripcion: {{cooperativa.fe_suscripcion}}</p>
+        <p>Status: {{cooperativa.st_status}}</p> 
+        <p>Fecha status: {{cooperativa.fe_status}}</p>
+        <p>Fecha Registro: {{cooperativa.fe_registro}}</p> 
+        </li>
+      </ul>
+</div>
+<!--
+cd_nacion
+nu_rif
+de_direccion
+tp_actividad
+fe_suscripcion
+st_status
+fe_status
+fe_registro
+-->
